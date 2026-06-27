@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node src/app.js",
     "dev": "node --watch src/app.js"
@@ -21,3 +24,4 @@
     "uuid": "^14.0.1"
   }
 }
+
