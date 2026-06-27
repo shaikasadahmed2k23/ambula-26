@@ -208,4 +208,3 @@ PATCH /api/doctors/slots/block-date     Block entire date
 **One improvement with more time:** WebSocket-based real-time slot updates via Socket.io — so patients see slots disappear live across all browser tabs as bookings happen, closing the tiny race window between UI fetch and booking attempt.
 ```
 
----
