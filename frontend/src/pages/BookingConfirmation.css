@@ -1,0 +1,26 @@
+.confirm-page{min-height:100vh;padding:3rem 0;background:var(--bg)}
+.confirm-inner{display:flex;justify-content:center}
+.confirm-card{background:var(--white);border:1.5px solid var(--border);border-radius:20px;padding:2.5rem;max-width:520px;width:100%;text-align:center;box-shadow:var(--shadow-lg)}
+.confirm-icon{width:80px;height:80px;background:var(--green-light);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.5rem;color:var(--green)}
+.confirm-card h1{font-size:1.5rem;font-weight:700;color:var(--navy);margin-bottom:0.5rem}
+.confirm-sub{color:var(--slate);font-size:0.9rem;margin-bottom:2rem}
+.booking-id-box{background:var(--navy);border-radius:var(--radius);padding:1.25rem;margin-bottom:1.75rem}
+.bid-label{display:block;font-size:0.75rem;color:rgba(255,255,255,0.5);font-weight:500;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+.bid-row{display:flex;align-items:center;justify-content:space-between}
+.bid-code{font-family:"Sora",monospace;font-size:1.5rem;font-weight:700;color:white;letter-spacing:2px}
+.bid-copy{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.2);border-radius:var(--radius-sm);color:white;font-size:0.8rem;padding:6px 12px;cursor:pointer;font-family:inherit;transition:background 0.15s}
+.bid-copy:hover{background:rgba(255,255,255,0.25)}
+.confirm-details{background:var(--bg);border-radius:var(--radius);padding:1.25rem;display:flex;flex-direction:column;gap:1rem;text-align:left;margin-bottom:1rem}
+.cd-item{display:flex;align-items:flex-start;gap:12px;color:var(--teal-dark)}
+.cd-item>div{display:flex;flex-direction:column}
+.cd-label{font-size:0.75rem;color:var(--muted);font-weight:500}
+.cd-value{font-size:0.9rem;color:var(--navy);font-weight:600}
+.confirm-patient{background:var(--teal-light);border-radius:var(--radius-sm);padding:0.875rem 1rem;display:flex;flex-direction:column;text-align:left;margin-bottom:1.75rem}
+.cp-label{font-size:0.75rem;color:var(--teal-dark);font-weight:600;margin-bottom:2px}
+.cp-value{font-size:0.875rem;color:var(--navy);font-weight:500}
+.confirm-actions{display:flex;gap:1rem}
+.btn-ghost{flex:1;background:none;border:1.5px solid var(--border);border-radius:var(--radius);padding:12px;font-size:0.9rem;font-weight:600;color:var(--slate);cursor:pointer;font-family:inherit;transition:all 0.15s}
+.btn-ghost:hover{border-color:var(--teal);color:var(--teal-dark)}
+.btn-primary-lg{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--teal);color:white;border:none;border-radius:var(--radius);padding:12px;font-size:0.9rem;font-weight:700;cursor:pointer;font-family:inherit;transition:background 0.15s}
+.btn-primary-lg:hover{background:var(--teal-dark)}
+@media(max-width:580px){.confirm-card{padding:1.5rem;border-radius:var(--radius)}.confirm-actions{flex-direction:column}}

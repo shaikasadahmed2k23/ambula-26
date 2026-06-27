@@ -1,0 +1,20 @@
+.navbar { background: var(--white); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.navbar-inner { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.navbar-brand { display: flex; align-items: center; gap: 10px; font-family: 'Sora',sans-serif; font-weight: 700; font-size: 1.25rem; color: var(--navy); }
+.brand-icon { width: 36px; height: 36px; background: var(--teal); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; }
+.navbar-links { display: flex; align-items: center; gap: 8px; }
+.nav-link { display: flex; align-items: center; gap: 6px; padding: 8px 14px; border-radius: var(--radius-sm); font-size: 0.875rem; font-weight: 500; color: var(--slate); transition: all 0.15s; }
+.nav-link:hover, .nav-link.active { color: var(--teal-dark); background: var(--teal-light); }
+.btn-outline-sm { display: flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: var(--radius-sm); font-size: 0.875rem; font-weight: 600; border: 1.5px solid var(--teal); color: var(--teal-dark); background: transparent; transition: all 0.15s; cursor: pointer; }
+.btn-outline-sm:hover { background: var(--teal); color: white; }
+.btn-outline-sm.danger { border-color: var(--red); color: var(--red); }
+.btn-outline-sm.danger:hover { background: var(--red); color: white; }
+.doctor-badge { background: var(--teal-light); border-radius: var(--radius-sm); padding: 6px 12px; }
+.doctor-badge-name { font-size: 0.8rem; font-weight: 600; color: var(--teal-dark); }
+.hamburger { display: none; background: none; color: var(--navy); padding: 6px; border-radius: var(--radius-sm); }
+.mobile-menu { display: flex; flex-direction: column; border-top: 1px solid var(--border); padding: 0.5rem 1rem; background: var(--white); }
+.mobile-link { display: block; padding: 12px 8px; font-size: 0.95rem; font-weight: 500; color: var(--slate); border: none; background: none; text-align: left; cursor: pointer; border-bottom: 1px solid var(--border); font-family: inherit; }
+.mobile-link:last-child { border-bottom: none; }
+.mobile-link.accent { color: var(--teal-dark); font-weight: 600; }
+.mobile-link.danger { color: var(--red); }
+@media (max-width: 768px) { .navbar-links { display: none; } .hamburger { display: flex; } }
